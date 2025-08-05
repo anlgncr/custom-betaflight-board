@@ -10,9 +10,9 @@ We will use the BMI160 IMU sensor in SPI mode.
 Let's build the circuit as shown in the image below.
 <img width="1428" height="579" alt="Ekran görüntüsü 2025-08-05 182746" src="https://github.com/user-attachments/assets/089f764d-74cd-4e8d-a9ed-436ffbaef7fb" />
 
-To build the Betaflight firmware, start by downloading the MSYS2 development environment from the following link: https://www.msys2.org/
+* To build the Betaflight firmware, start by downloading the MSYS2 development environment from the following link: https://www.msys2.org/
 
-Once MSYS2 is installed, launch the MSYS2 UCRT64 terminal and run the following commands in order:
+* Once MSYS2 is installed, launch the MSYS2 UCRT64 terminal and run the following commands in order:
 
 pacman -Syu
 
@@ -40,28 +40,29 @@ export PATH=$PATH:/c/betaflight/betaflight-4.5.2/tools/gcc-arm-none-eabi-10.3-20
 
 arm-none-eabi-gcc --version
 
-*Provided the gcc-arm-none-eabi folder has been properly reorganized, you will be able to verify its version.
+* Provided the gcc-arm-none-eabi folder has been properly reorganized, you will be able to verify its version.
 
-*Paste the BLACKPILL folder inside the C:\betaflight\betaflight-4.5.2\src\config\configs path.
-*After that, execute the following command;
+* Paste the BLACKPILL folder inside the C:\betaflight\betaflight-4.5.2\src\config\configs path.
+  
+* After that, execute the following command;
 
 make BLACKPILL
 
-*After the build process completes, the hex file will be generated in the C:\betaflight\betaflight-4.5.2\obj folder.
+* After the build process completes, the hex file will be generated in the C:\betaflight\betaflight-4.5.2\obj folder.
 
-If everything is set, flash the hex file to the STM32F411 board using Betaflight Configurator.
+* If everything is set, flash the hex file to the STM32F411 board using Betaflight Configurator.
 
-Download Betaflight Configurator for your OS from:
+* Download Betaflight Configurator for your OS from:
 
 https://github.com/betaflight/betaflight-configurator/releases
 
-Open the Configurator.
+* Open the Configurator.
 
-Enter boot mode by holding BOOT while plugging the board into the PC, or if connected, hold BOOT and press RESET once.
+* Enter boot mode by holding BOOT while plugging the board into the PC, or if connected, hold BOOT and press RESET once.
 
-Go to Firmware Flasher tab, click Load Firmware (Local), and select the hex file.
+* Go to Firmware Flasher tab, click Load Firmware (Local), and select the hex file.
 
-Click Flash Firmware to start flashing.
+* Click Flash Firmware to start flashing.
 
 
 
