@@ -14,23 +14,17 @@ Let's build the circuit as shown in the image below.
 
 * Once MSYS2 is installed, launch the MSYS2 UCRT64 terminal and run the following commands in order:
 
+```bash
 pacman -Syu
-
 pacman -S git make
-
 cd c:
-
 mkdir betaflight
-
 cd betaflight
-
 git clone --recursive https://github.com/betaflight/betaflight.git betaflight-4.5.2
-
 cd betaflight-4.5.2
-
 git checkout -b release-4.5.2 tags/4.5.2
-
 make arm_sdk_install
+```
 
 * Once this command completes the download; Please reorganize the folder inside c:/betaflight/betaflight-4.5.2/tools named gcc-arm-none-eabi-10.3-2021.10 which currently contains another folder with the same name nested inside it. The final structure should be:
 
