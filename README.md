@@ -26,6 +26,7 @@ Let's build the circuit as shown in the image below.
 1. Install MSYS2
    
 Download the MSYS2 development environment from:
+
 👉 https://www.msys2.org/
 
 Then open the MSYS2 UCRT64 terminal and run the following commands:
@@ -43,6 +44,7 @@ make arm_sdk_install
 ```
 
 2. Fix Toolchain Directory Structure
+
 After the toolchain is downloaded, reorganize the folder at:
 c:/betaflight/betaflight-4.5.2/tools/gcc-arm-none-eabi-10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10
 Move its contents up one level, so the final path becomes:
@@ -57,6 +59,7 @@ arm-none-eabi-gcc --version
 If everything is organized correctly, this should display the GCC version.
 
 3. Add Target Configuration
+   
 Copy your BLACKPILL folder into:
 C:\betaflight\betaflight-4.5.2\src\config\configs
   
