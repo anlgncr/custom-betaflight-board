@@ -74,9 +74,8 @@ make BLACKPILL
 
 After building, the .hex file will be generated in:
 
- ```text
 C:\betaflight\betaflight-4.5.2\obj folder.
-```
+
 
 # Flashing the Firmware
 Download Betaflight Configurator for your OS:
