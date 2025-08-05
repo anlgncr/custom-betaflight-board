@@ -24,6 +24,7 @@ Let's build the circuit as shown in the image below.
 
 # Building Betaflight Firmware
 1. Install MSYS2
+   
 Download the MSYS2 development environment from:
 👉 https://www.msys2.org/
 
