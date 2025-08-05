@@ -28,11 +28,11 @@ make arm_sdk_install
 
 * Once this command completes the download; Please reorganize the folder inside c:/betaflight/betaflight-4.5.2/tools named gcc-arm-none-eabi-10.3-2021.10 which currently contains another folder with the same name nested inside it. The final structure should be:
 
+```bash
 c:/betaflight/betaflight-4.5.2/tools/gcc-arm-none-eabi-10.3-2021.10
-
 export PATH=$PATH:/c/betaflight/betaflight-4.5.2/tools/gcc-arm-none-eabi-10.3-2021.10/bin
-
 arm-none-eabi-gcc --version
+```
 
 * Provided the gcc-arm-none-eabi folder has been properly reorganized, you will be able to verify its version.
 
@@ -40,7 +40,9 @@ arm-none-eabi-gcc --version
   
 * After that, execute the following command;
 
+```bash
 make BLACKPILL
+```
 
 * After the build process completes, the hex file will be generated in the C:\betaflight\betaflight-4.5.2\obj folder.
 
