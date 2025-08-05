@@ -67,6 +67,8 @@ https://github.com/betaflight/betaflight-configurator/releases
 
 * Click Flash Firmware to start flashing.
 
+If you have any questions or encounter any problems, don’t hesitate to ask!
+
 
 
 
