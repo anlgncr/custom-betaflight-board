@@ -5,12 +5,16 @@ In this custom flight controller project, we will use the Blackpill STM32F411 de
 
 <img width="500" alt="STM32F411 Development Board" src="https://github.com/user-attachments/assets/8774815d-27a9-417e-8fad-c51c0a6979aa" />
 
+
 We will use the BMI160 IMU sensor in SPI mode.
 
 <img width="250" alt="BMI160 IMU" src="https://github.com/user-attachments/assets/24f1540d-35d0-487e-9cce-bbdc03423a39" />
 
+
 Let's build the circuit as shown in the image below.
+
 <img width="1428" height="579" alt="Circuit" src="https://github.com/user-attachments/assets/089f764d-74cd-4e8d-a9ed-436ffbaef7fb" />
+
 
 * To build the Betaflight firmware, start by downloading the MSYS2 development environment from the following link: https://www.msys2.org/
 
