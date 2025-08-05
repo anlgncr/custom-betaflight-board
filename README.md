@@ -9,7 +9,10 @@ Hardware Used
 * (Optional) Voltage Divider Circuit for battery voltage monitoring
 
 <img width="500" alt="STM32F411 Development Board" src="https://github.com/user-attachments/assets/8774815d-27a9-417e-8fad-c51c0a6979aa" />
+<br/>
+https://stm32-base.org/boards/STM32F411CEU6-WeAct-Black-Pill-V2.0.html
 <hr/>
+
 
 BMI160 IMU
 
