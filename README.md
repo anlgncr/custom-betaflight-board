@@ -11,7 +11,7 @@ Hardware Used
 <img width="500" alt="STM32F411 Development Board" src="https://github.com/user-attachments/assets/8774815d-27a9-417e-8fad-c51c0a6979aa" />
 <hr/>
 
-We will use the BMI160 IMU sensor in SPI mode.
+BMI160 IMU
 
 <img width="250" alt="BMI160 IMU" src="https://github.com/user-attachments/assets/24f1540d-35d0-487e-9cce-bbdc03423a39" />
 <hr/>
